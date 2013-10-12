@@ -1,0 +1,20 @@
+<% provide(:title, 'Help') %>
+<div class="content">
+	<div class="demo">
+		<h1>Demo 1</h1>
+		<div id="demo1" class="jMax">
+    </div>
+  </div>
+</div>
+
+
+		<script src="jquery.MaxInput.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		$(function() {
+			$("#demo1").maxinput({
+				position	: 'topleft',
+				showtext 	: true,
+				limit		: 130
+			});
+		});
+		</script>
